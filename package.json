@@ -1,0 +1,29 @@
+{
+  "name": "Libraries-Practise",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://sanchousser.io/Libraries-Practise",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Libraries-Practise/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchousser/Libraries-Practise.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchousser/Libraries-Practise/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
